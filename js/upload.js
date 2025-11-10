@@ -15,7 +15,7 @@ let editingArticleId = null;
         // Login function
         function login() {
             const password = document.getElementById('password').value;
-            if (password === 'admin123') {
+            if (password === 'Círculo_Inteligente#24') {
                 isLoggedIn = true;
                 console.log('Login successful, isLoggedIn set to true');
                 document.getElementById('loginForm').style.display = 'none';
